@@ -1,0 +1,1054 @@
+/* Laptops / Desktops */
+
+@media (max-width: 1280px) {
+  header {
+    padding: 12px 50px;
+    gap: 220px;
+  }
+
+  /* NAVIGATION BAR */
+
+  header .logo {
+    font-size: 30px;
+  }
+
+  .nav-links li {
+    padding: 15px 0;
+  }
+  .nav-links a {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+  }
+
+  .btn-mobile-nav {
+    display: none;
+  }
+  /* HERO CONTAINER */
+  .heroContainer {
+    margin-top: 140px;
+    margin-bottom: 150px;
+  }
+
+  .heroTitle h1 {
+    width: 450px;
+    font-size: 45px;
+    font-weight: 500;
+  }
+
+  .heroTitle p {
+    width: 450px;
+    font-size: 20px;
+  }
+
+  .heroContainer .heroTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  .heroContainer .ocuppation {
+    font-weight: 800;
+    font-size: 20px;
+  }
+
+  .heroContainer img {
+    width: 500px;
+    height: 400px;
+    margin-right: 100px;
+  }
+
+  /* SKILL SECTION */
+
+  .skillCon {
+    height: 284px;
+    padding: 15px 0px;
+    gap: 44px;
+    margin-bottom: 100px;
+  }
+
+  .skillCon h2 {
+    width: 355px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .skillCon .skillIcon {
+    display: flex;
+    align-items: center;
+    gap: 54px;
+  }
+
+  .skillCon p {
+    color: #1c1c1c;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  /* PROJECT SECTION */
+  .projectCon {
+    margin-bottom: 50px;
+  }
+
+  /* ABOUT SECTION */
+
+  .aboutMe {
+    grid-template-columns: 40% 30%;
+    gap: 274px;
+    margin-bottom: 100px;
+    padding: 50px;
+  }
+
+  .aboutMe h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-align: left;
+  }
+
+  .aboutMe p {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .aboutMe img {
+    width: 300px;
+    height: 280px;
+    margin-top: 200px;
+  }
+
+  .aboutCon2 {
+    gap: 100px;
+    align-items: center;
+    margin-left: 140px;
+    margin-bottom: 100px;
+  }
+
+  .aboutCon {
+    padding: 8px 15px;
+    width: 434px;
+    height: 238px;
+    gap: 20px;
+    border-radius: 5px;
+    border: 1px solid #1c1c1c;
+  }
+
+  .aboutCon h3 {
+    font-size: 25px;
+  }
+
+  .aboutCon p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    padding-left: 50px;
+    padding-right: 80px;
+  }
+  header .logo {
+    font-size: 25px;
+  }
+
+  .mainNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
+    gap: 50px;
+  }
+
+  .nav-links {
+    width: 200px;
+  }
+
+  .nav-links li {
+    padding: 15px 0;
+    margin-right: 15px;
+  }
+  .nav-links a {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 10px;
+  }
+
+  .btn-mobile-nav {
+    display: none;
+  }
+  /* HERO CONTAINER */
+  .heroContainer {
+    width: 900px;
+    gap: 100px;
+    margin: 0 auto;
+    margin-top: 140px;
+    margin-left: 220px;
+    margin-bottom: 150px;
+  }
+
+  .heroTitle h1 {
+    width: 250px;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .heroTitle p {
+    width: 350px;
+    font-size: 20px;
+  }
+
+  .heroContainer .heroTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .heroContainer .ocuppation {
+    font-weight: 800;
+    font-size: 18px;
+  }
+
+  .heroContainer img {
+    height: 380px;
+  }
+
+  /* ABOUT SECTION */
+
+  .aboutMe {
+    grid-template-columns: 40% 30%;
+    gap: 150px;
+    margin-bottom: 100px;
+    padding: 50px;
+  }
+
+  .aboutMe img {
+    width: 300px;
+    height: 280px;
+    margin-top: 50px;
+  }
+
+  .aboutCon2 {
+    gap: 80px;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 100px;
+  }
+
+  .aboutCon {
+    padding: 8px 15px;
+    width: 434px;
+    height: 238px;
+    gap: 20px;
+    border-radius: 5px;
+    border: 1px solid #1c1c1c;
+  }
+
+  .aboutCon h3 {
+    font-size: 25px;
+  }
+
+  .aboutCon p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1200px) {
+  header {
+    padding: 10px 80px;
+    gap: 120px;
+  }
+}
+
+/* Tablets (Portrait) */
+@media (max-width: 990px) {
+  header {
+    padding: 10px 80px;
+    gap: 150px;
+  }
+
+  /* NAVIGATION BAR */
+
+  header .logo {
+    font-size: 25px;
+  }
+
+  .nav-links li {
+    padding: 10px 0;
+    margin-right: 10px;
+  }
+  .nav-links a {
+    font-size: 15px;
+    padding: 8px 10px;
+  }
+
+  .btn-mobile-nav {
+    display: none;
+  }
+  /* HERO CONTAINER */
+  .heroContainer {
+    width: 900px;
+    gap: 100px;
+    margin: 0 auto;
+    margin-top: 140px;
+    margin-left: 90px;
+    margin-bottom: 150px;
+  }
+
+  .heroTitle h1 {
+    width: 250px;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .heroTitle p {
+    width: 350px;
+    font-size: 20px;
+  }
+
+  .heroContainer .heroTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .heroContainer .ocuppation {
+    font-weight: 800;
+    font-size: 18px;
+  }
+
+  .heroContainer img {
+    margin-right: 0;
+  }
+
+  /* PROJECT SECTION */
+
+  .projectCon {
+    gap: 30px;
+    margin-bottom: 150px;
+  }
+
+  .projectCon h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+  }
+
+  .projectCon .project {
+    width: 561px;
+    height: 545px;
+    border-radius: 6px;
+    background: #c2c0d6;
+    gap: 10px;
+  }
+
+  .project img {
+    width: 490px;
+    margin-left: 35px;
+  }
+
+  .project h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+  }
+
+  .project p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .project .projectBtn button {
+    padding: 12px 15px;
+    margin: 15px;
+  }
+
+  /* ABOUT SECTION */
+
+  .aboutMe {
+    grid-template-columns: 40% 30%;
+    gap: 150px;
+    margin-bottom: 100px;
+    padding: 0 50px;
+  }
+
+  .aboutMe h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-align: left;
+  }
+
+  .aboutMe p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .aboutMe img {
+    width: 300px;
+    height: 280px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  /* ABOUT CONTAINER */
+  .aboutCon2 {
+    gap: 50px;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 100px;
+  }
+
+  .aboutCon {
+    padding: 8px 15px;
+    width: 434px;
+    height: 238px;
+    gap: 20px;
+    border-radius: 5px;
+    border: 1px solid #1c1c1c;
+  }
+
+  .aboutCon h3 {
+    font-size: 30px;
+  }
+
+  .aboutCon p {
+    font-size: 15px;
+  }
+  /* FORM SECTION */
+  .formCon h2 {
+    font-size: 30px;
+  }
+
+  .formCon P {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 868px) {
+  header {
+    padding: 10px 80px;
+    gap: 30px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  /* NAV BAR */
+  .nav-links li {
+    padding: 10px 0;
+    margin-right: 10px;
+  }
+
+  .nav-links a {
+    font-size: 15px;
+    gap: 5px;
+    padding: 0 8px;
+  }
+
+  .btn-mobile-nav {
+    display: none;
+  }
+
+  /* HERO CONTAINER */
+  .heroContainer {
+    width: 80%;
+    gap: 90px;
+    margin: 0 auto;
+    margin-top: 140px;
+    margin-left: 110px;
+    margin-bottom: 80px;
+  }
+
+  .heroTitle h1 {
+    width: 250px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .heroTitle p {
+    width: 250px;
+    font-size: 15px;
+  }
+
+  .heroContainer .heroTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .heroContainer .ocuppation {
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .heroContainer img {
+    width: 300px;
+    height: 300px;
+  }
+
+  /* SKILL SECTION */
+
+  .skillCon {
+    height: 284px;
+    padding: 15px 0px;
+    gap: 44px;
+    margin-bottom: 100px;
+  }
+
+  .skillCon h2 {
+    width: 255px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .skillCon .skillIcon {
+    align-items: center;
+    gap: 40px;
+  }
+
+  .skillCon p {
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .skillCon img {
+    width: 130px;
+    height: 100px;
+  }
+
+  /* PROJECT SECTION */
+
+  .projectCon {
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
+  .projectCon h2 {
+    font-size: 25px;
+  }
+
+  .projectCon .project {
+    width: 480px;
+    height: 420px;
+    border-radius: 6px;
+    background: #c2c0d6;
+    gap: 10px;
+  }
+
+  .project img {
+    width: 420px;
+    margin-left: 25px;
+  }
+
+  .project h2 {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    margin-left: 20px;
+  }
+
+  .project p {
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .project .projectBtn button {
+    padding: 8px 10px;
+    margin: 8px;
+  }
+
+  /* ABOUT SECTION */
+
+  .aboutMe {
+    grid-template-columns: 40% 30%;
+    gap: 100px;
+    margin-bottom: 100px;
+    padding: 0 50px;
+  }
+
+  .aboutMe h2 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    text-align: left;
+  }
+
+  .aboutMe p {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .aboutMe img {
+    width: 200px;
+    height: 180px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  /* ABOUT CONTAINER */
+  .aboutCon2 {
+    gap: 50px;
+    align-items: center;
+    margin-left: 140px;
+  }
+
+  .aboutCon {
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    width: 234px;
+    height: 138px;
+    gap: 15px;
+    border-radius: 5px;
+    border: 1px solid #1c1c1c;
+  }
+
+  .aboutCon h3 {
+    font-size: 25px;
+  }
+
+  .aboutCon p {
+    font-size: 12px;
+  }
+
+  /* FORM SECTION */
+  .formCon {
+    width: 657px;
+    gap: 25px;
+    max-width: 400px;
+    margin-bottom: 140px;
+    padding: 18px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+    gap: 58px;
+  }
+
+  .formCon h2 {
+    font-size: 35px;
+  }
+
+  .formCon P {
+    font-size: 18px;
+  }
+  input,
+  textarea,
+  .formBtn {
+    width: 347px;
+    height: 47px;
+    padding: 12px 15px;
+    border-radius: 5px;
+  }
+
+  textarea {
+    height: 120px;
+  }
+
+  .formBtn {
+    padding: 10px 18px;
+    border-radius: 6px;
+    width: 347px;
+  }
+
+  .formBtn p {
+    color: #252728;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    gap: 58px;
+  }
+
+  /* FOOTER SECTION */
+  footer p {
+    font-size: 18px;
+    font-weight: 200;
+  }
+}
+
+/* SMALL TABLETS */
+@media (max-width: 768px) {
+  header {
+    padding: 10px 80px;
+    gap: 30px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  /* NAV BAR */
+  .nav-links li {
+    padding: 10px 0;
+    margin-right: 10px;
+  }
+
+  .nav-links a {
+    font-size: 15px;
+    gap: 5px;
+    padding: 0 8px;
+  }
+
+  .btn-mobile-nav {
+    display: none;
+  }
+
+  /* HERO CONTAINER */
+  .heroContainer {
+    width: 80%;
+    gap: 90px;
+    margin: 0 auto;
+    margin-top: 140px;
+    margin-left: 110px;
+    margin-bottom: 80px;
+  }
+
+  .heroTitle h1 {
+    width: 250px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .heroTitle p {
+    width: 250px;
+    font-size: 15px;
+  }
+
+  .heroContainer .heroTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .heroContainer .ocuppation {
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .heroContainer img {
+    width: 300px;
+    height: 300px;
+  }
+
+  /* SKILL SECTION */
+
+  .skillCon {
+    height: 284px;
+    padding: 15px 0px;
+    gap: 44px;
+    margin-bottom: 100px;
+  }
+
+  .skillCon h2 {
+    width: 255px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .skillCon .skillIcon {
+    align-items: center;
+    gap: 40px;
+  }
+
+  .skillCon p {
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .skillCon img {
+    width: 130px;
+    height: 100px;
+  }
+
+  /* PROJECT SECTION */
+
+  .projectCon {
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
+  .projectCon h2 {
+    font-size: 25px;
+  }
+
+  .projectCon .project {
+    width: 480px;
+    height: 420px;
+    border-radius: 6px;
+    background: #c2c0d6;
+    gap: 10px;
+  }
+
+  .project img {
+    width: 420px;
+    margin-left: 25px;
+  }
+
+  .project h2 {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    margin-left: 20px;
+  }
+
+  .project p {
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .project .projectBtn button {
+    padding: 8px 10px;
+    margin: 8px;
+  }
+
+  /* ABOUT SECTION */
+
+  .aboutMe {
+    grid-template-columns: 40% 30%;
+    gap: 100px;
+    margin-bottom: 100px;
+    padding: 0 50px;
+  }
+
+  .aboutMe h2 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    text-align: left;
+  }
+
+  .aboutMe p {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .aboutMe img {
+    width: 200px;
+    height: 180px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  /* ABOUT CONTAINER */
+  .aboutCon2 {
+    gap: 50px;
+    align-items: center;
+    margin-left: 140px;
+  }
+
+  .aboutCon {
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    width: 234px;
+    height: 138px;
+    gap: 15px;
+    border-radius: 5px;
+    border: 1px solid #1c1c1c;
+  }
+
+  .aboutCon h3 {
+    font-size: 25px;
+  }
+
+  .aboutCon p {
+    font-size: 12px;
+  }
+
+  /* FORM SECTION */
+  .formCon {
+    width: 657px;
+    gap: 25px;
+    max-width: 400px;
+    margin-bottom: 140px;
+    padding: 18px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+    gap: 58px;
+  }
+
+  .formCon h2 {
+    font-size: 35px;
+  }
+
+  .formCon P {
+    font-size: 18px;
+  }
+  input,
+  textarea,
+  .formBtn {
+    width: 347px;
+    height: 47px;
+    padding: 12px 15px;
+    border-radius: 5px;
+  }
+
+  textarea {
+    height: 120px;
+  }
+
+  .formBtn {
+    padding: 10px 18px;
+    border-radius: 6px;
+    width: 347px;
+  }
+
+  .formBtn p {
+    color: #252728;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    gap: 58px;
+  }
+
+  /* FOOTER SECTION */
+  footer p {
+    font-size: 18px;
+    font-weight: 200;
+  }
+}
+
+@media (max-width: 540px) {
+  .header {
+    gap: 220px;
+  }
+
+  .logo img {
+    width: 55px;
+    height: 40px;
+  }
+
+  .header .logo {
+    font-size: 22px;
+  }
+
+  /* MENU BUTTON SECTION */
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .mainNav {
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    position: absolute;
+    backdrop-filter: blur(10px);
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100vh;
+    transform: translateX(100%);
+  }
+
+  .nav-links {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .nav-open .mainNav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+  /* END OF MENU BUTTON */
+
+  /* HERO CONTAINER */
+  .heroContainer {
+    width: 80%;
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 140px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+  }
+
+  .heroTitle h1 {
+    width: 219px;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .heroTitle p {
+    width: 219px;
+    font-size: 12px;
+  }
+
+  .heroContainer .heroTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .heroContainer .ocuppation {
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .heroContainer img {
+    width: 250px;
+    height: 250px;
+  }
+
+  /* SKILL SECTION */
+
+  .skillCon {
+    height: 284px;
+    padding: 15px 0px;
+    gap: 44px;
+    margin-bottom: 50px;
+  }
+
+  .skillCon .skillIcon {
+    gap: 0px;
+  }
+
+  .skillCon h2 {
+    font-size: 22px;
+  }
+
+  .skillCon p {
+    font-size: 12px;
+  }
+
+  .skillCon img {
+    gap: 30px;
+    width: 90px;
+    height: 80px;
+  }
+
+  /* PROJECT SECTION */
+
+  .projectCon h2 {
+    font-size: 22px;
+  }
+}

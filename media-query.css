@@ -592,6 +592,7 @@
   /* ABOUT CONTAINER */
   .aboutCon2 {
     gap: 50px;
+    align-items: center;
   }
 
   .aboutCon {
@@ -839,6 +840,7 @@
   .aboutCon2 {
     gap: 50px;
     align-items: center;
+    margin-left: 140px;
   }
 
   .aboutCon {
@@ -1042,7 +1044,43 @@
 
   /* PROJECT SECTION */
 
+  .projectCon {
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
   .projectCon h2 {
+    font-size: 25px;
+  }
+
+  .projectCon .project {
+    width: 480px;
+    height: 420px;
+    border-radius: 6px;
+    background: #c2c0d6;
+    gap: 10px;
+  }
+
+  .project img {
+    width: 420px;
+    margin-left: 25px;
+  }
+
+  .project h2 {
     font-size: 22px;
+    font-weight: 400;
+  }
+
+  .project p {
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .project .projectBtn button {
+    padding: 8px 10px;
+    margin: 8px;
   }
 }

@@ -129,8 +129,9 @@ a:hover:after {
 .heroContainer {
   display: flex;
   flex-direction: row-reverse;
-  /* justify-content: space-between; */
+  justify-content: center;
   align-items: flex-start;
+  margin: 0 auto;
   margin-top: 140px;
   margin-bottom: 280px;
 }
@@ -307,8 +308,8 @@ a:hover:after {
 
 .aboutCon2 {
   display: flex;
-  width: 1438px;
   align-items: center;
+  justify-content: center;
   margin: 0 auto;
   gap: 370px;
   margin-bottom: 374px;

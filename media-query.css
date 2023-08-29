@@ -840,7 +840,6 @@
   .aboutCon2 {
     gap: 50px;
     align-items: center;
-    margin-left: 140px;
   }
 
   .aboutCon {
@@ -1054,16 +1053,16 @@
   }
 
   .projectCon .project {
-    width: 480px;
-    height: 420px;
+    width: 380px;
+    height: 380px;
     border-radius: 6px;
     background: #c2c0d6;
     gap: 10px;
   }
 
   .project img {
-    width: 420px;
-    margin-left: 25px;
+    width: 290px;
+    margin-left: 35px;
   }
 
   .project h2 {
@@ -1083,4 +1082,56 @@
     padding: 8px 10px;
     margin: 8px;
   }
+
+  /* ABOUT SECTION */
+
+  .aboutMe {
+    grid-template-columns: 40% 30%;
+    gap: 40px;
+    margin-bottom: 100px;
+    padding: 50px;
+  }
+
+  .aboutMe h2 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+
+  .aboutMe p {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .aboutMe img {
+    width: 250px;
+    height: 220px;
+    margin-top: 100px;
+  }
+
+  /* ABOUT CONTAINER */
+  .aboutCon2 {
+    gap: 50px;
+    align-items: center;
+  }
+
+  .aboutCon {
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    width: 190px;
+    height: 138px;
+    gap: 15px;
+    border-radius: 5px;
+    border: 1px solid #1c1c1c;
+  }
+
+  .aboutCon h3 {
+    font-size: 20px;
+  }
+
+  .aboutCon p {
+    font-size: 10px;
+  }
+
 }
